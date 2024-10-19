@@ -24,4 +24,28 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .foot1{
+    margin: 10px;
+  }
+  .footer{
+ 
+    padding: 40px;
+    /* padding-left: 60px; */
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer p{
+    margin: 3px;
+    color: gray;
+    font-weight: 100;
+  }
+  .foot1 span{
+    color: rgb(61, 60, 60);
+    font-weight: 900;
+  }
+  
 }
+
+
+
+
