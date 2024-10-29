@@ -1,5 +1,6 @@
 import Footer from './components/Footer'
 import Link from 'next/link'
+import NavbarH from './components/NavbarH'
 export default function Home(){
   return(
     <div className='bg-white h-screen'>
@@ -17,8 +18,10 @@ export default function Home(){
         <li><Link href={'./Customers'}>Customers</Link></li>
         <li><Link href={'./Contact'}>Contact Me</Link></li>
         <li><Link href={'./Help'}>Help</Link></li>
+        
       </ol>
       <Footer />
+      <button className='text-lg text-white bg-yellow-500 p-3 rounded-lg m-5 hover:bg-slate-700'><Link href={'./Class6'}>Class 6 Mini Hackathon</Link></button>
     </div>
   )
 }
